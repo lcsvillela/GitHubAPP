@@ -11,3 +11,6 @@ def test_forks():
 
 def test_pesquisar():
     assert Dados('Python').pesquisar() is not None
+
+def test_get_informacao():
+    assert Dados('Python').get_insformacao(1, "name") is not None
